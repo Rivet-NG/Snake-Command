@@ -20,6 +20,6 @@ class Snake {
 let dots = new Snake("Boa");
 let diamonds = new Snake("Python");
 let stripes = new Snake("Viper");
-console.log(dots.turn(86));
-console.log(diamonds.turn(-43));
-console.log(stripes.turn(0));
+dots.turn(86);
+diamonds.turn(-43);
+stripes.turn(0);
