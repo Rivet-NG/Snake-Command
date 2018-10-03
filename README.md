@@ -6,7 +6,7 @@ class Snake {
     this.pattern = snakeType;
   }
   move(numOfSquares) {
-    if(numOfSquares > 0 || numOfSquares < 0) totalDistance = numOfSquare;
+    if(numOfSquares > 0 || numOfSquares < 0) totalDistance = numOfSquares;
   }
   turn(totalDistance) {  
     if(totalDistance >= 1) console.log(this.pattern, "should go up", totalDistance, "spaces and turn to the back.");
